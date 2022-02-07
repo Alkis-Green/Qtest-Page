@@ -1,0 +1,20 @@
+.header {
+  background-color: #fff;
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header-title {
+  font-family: MetropolisRegular;
+  font-size: 26px;
+  padding-left: 3em;
+}
+/*# sourceMappingURL=Header.css.map */

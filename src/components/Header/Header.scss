@@ -1,0 +1,13 @@
+.header {
+  background-color: #fff;
+  height: 90px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  .header-title {
+    font-family: MetropolisRegular;
+    font-size: 26px;
+    padding-left: 3em;
+  }
+}

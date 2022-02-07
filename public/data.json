@@ -1,0 +1,104 @@
+{
+  "name": "Anna Anne",
+  "short_name": "Anna's",
+  "id": "(19901230-4567)",
+  "contact_info": {
+    "name": "Anna",
+    "email": "annaanne@qliro.com",
+    "tel": "+46721234567",
+    "shipping_address": "Qlirovägen 123,",
+    "county": "12345 Stockholm, Sweden"
+  },
+  "orders": [
+    {
+      "id": "1",
+      "order_status": "Online",
+      "order_number": "1234567890",
+      "go_to": "https://drive.google.com/uc?export=view&id=1tCWYyuc0sPmqD4Vh4nS29izLgTCDetgt",
+      "created_at": "05 maj, 12:33",
+      "store_location": {
+        "country_img": "https://drive.google.com/uc?export=view&id=1-HTqB5sNj10mUNGzhtk935DCEbLIvp_S",
+        "store": "Butik X"
+      },
+
+      "payment_method": {
+        "img_src": "https://drive.google.com/uc?export=view&id=1WKHyOqcvkShp2E2SYgWFwA6F59cv1DCu",
+        "type": "Invoice"
+      },
+      "payment_status": "paid",
+      "amount": "2160 kr"
+    },
+    {
+      "id": "2",
+      "order_status": "Instore",
+      "order_number": "1234567890",
+      "go_to": "https://drive.google.com/uc?export=view&id=1tCWYyuc0sPmqD4Vh4nS29izLgTCDetgt",
+      "created_at": "05 maj, 12:33",
+      "store_location": {
+        "country_img": "https://drive.google.com/uc?export=view&id=1jCB48wpnlpwPv_gWnOHZ4KLgKHIXtJc8",
+        "store": "Butik X"
+      },
+
+      "payment_method": {
+        "img_src": "https://drive.google.com/uc?export=view&id=1_GmSWf9gLoyKX5TYzdX8e5_uoLY9Gq88",
+        "type": "Card, ...1234"
+      },
+      "payment_status": "In progress",
+      "amount": "3890 kr"
+    },
+    {
+      "id": "3",
+      "order_status": "Manual",
+      "order_number": "1234567890",
+      "go_to": "https://drive.google.com/uc?export=view&id=1tCWYyuc0sPmqD4Vh4nS29izLgTCDetgt",
+      "created_at": "05 maj, 12:33",
+      "store_location": {
+        "country_img": "https://drive.google.com/uc?export=view&id=1R1I1IdSMaWHIi2K7vn0oqSFo78RU5_H1",
+        "store": "Butik X"
+      },
+
+      "payment_method": {
+        "img_src": "https://drive.google.com/uc?export=view&id=1HcJu0L50_cn9UVfxIhk1pj09YNmTNQPP",
+        "type": "Card, ...1234"
+      },
+      "payment_status": "failed",
+      "amount": "1134 kr"
+    },
+    {
+      "id": "4",
+      "order_status": "Online",
+      "order_number": "1234567890",
+      "go_to": "https://drive.google.com/uc?export=view&id=1tCWYyuc0sPmqD4Vh4nS29izLgTCDetgt",
+      "created_at": "05 maj, 12:33",
+      "store_location": {
+        "country_img": "https://drive.google.com/uc?export=view&id=1jCB48wpnlpwPv_gWnOHZ4KLgKHIXtJc8",
+        "store": "Butik X"
+      },
+
+      "payment_method": {
+        "img_src": "https://drive.google.com/uc?export=view&id=1bvhwIn7SWLn9qMZ-UrWnVN3dS4D0CbvD",
+        "type": "Paypal"
+      },
+      "payment_status": "In progress",
+      "amount": "567 kr"
+    },
+    {
+      "id": "5",
+      "order_status": "Instore",
+      "order_number": "1234567890",
+      "go_to": "https://drive.google.com/uc?export=view&id=1tCWYyuc0sPmqD4Vh4nS29izLgTCDetgt",
+      "created_at": "05 maj, 12:33",
+      "store_location": {
+        "country_img": "https://drive.google.com/uc?export=view&id=1R1I1IdSMaWHIi2K7vn0oqSFo78RU5_H1",
+        "store": "Butik X"
+      },
+
+      "payment_method": {
+        "img_src": "https://drive.google.com/uc?export=view&id=1zvjY2hVpy7C4EGLYKrgk6_T5reEo5DAR",
+        "type": "Trustly"
+      },
+      "payment_status": "paid",
+      "amount": "8970 kr"
+    }
+  ]
+}

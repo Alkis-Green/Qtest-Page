@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: MetropolisLight;
+  src: url("../fonts/Metropolis-Light.otf");
+}
+
+@font-face {
+  font-family: MetropolisMedium;
+  src: url("../fonts/Metropolis-Medium.otf");
+}
+
+@font-face {
+  font-family: MetropolisRegular;
+  src: url("../fonts/Metropolis-Regular.otf");
+}

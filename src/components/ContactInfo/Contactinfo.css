@@ -1,0 +1,42 @@
+.container {
+  font-family: MetropolisLight;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2em 5em 2em 0;
+  border-top: 0.5px solid #e4e4e4;
+}
+
+.container span {
+  font-family: MetropolisMedium;
+  margin-left: 0.5em;
+}
+
+.container p {
+  margin-top: 0.3em;
+  color: dimgray;
+}
+
+.contact-container {
+  padding: 1.2em;
+}
+
+.contact-container .mail-info {
+  margin-top: 1.5em;
+}
+
+.shipping-container .mail-info {
+  margin-top: 1.5em;
+}
+
+.invoice-container .mail-info {
+  margin-top: 1.5em;
+}
+/*# sourceMappingURL=Contactinfo.css.map */

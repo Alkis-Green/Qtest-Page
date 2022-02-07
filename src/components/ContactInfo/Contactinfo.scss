@@ -1,0 +1,42 @@
+$backGround: #f9f9f9;
+
+.container {
+  font-family: MetropolisLight;
+  font-size: 16px;
+  background-color: $backGround;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2em 5em 2em 0;
+  border-top: 0.5px solid rgb(228, 228, 228);
+
+  span {
+    font-family: MetropolisMedium;
+    margin-left: 0.5em;
+  }
+
+  p {
+    margin-top: 0.3em;
+    color: rgb(105, 105, 105);
+  }
+}
+
+.contact-container {
+  padding: 1.2em;
+
+  .mail-info {
+    margin-top: 1.5em;
+  }
+}
+
+.shipping-container {
+  .mail-info {
+    margin-top: 1.5em;
+  }
+}
+
+.invoice-container {
+  .mail-info {
+    margin-top: 1.5em;
+  }
+}

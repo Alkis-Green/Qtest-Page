@@ -1,0 +1,262 @@
+// Status Colors
+$order-headers: #989898;
+$status-items: #5f5f5f;
+$money: #222222;
+$orange: #f16500;
+$red: #fe1c1c;
+$lightgreen: #64e1c2;
+$grey: #ececec;
+$order: #0b8f73;
+$btn: #439b83;
+$paginationBtn: #9f9f9f;
+$backGround: #f9f9f9;
+
+.orders-container {
+  font-family: MetropolisRegular;
+  background-color: $backGround;
+  border-top: 0.5px solid rgb(221, 221, 221);
+  width: 100%;
+
+  .orders-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 90%;
+    margin: 0 auto;
+    padding: 4em 0;
+    font-size: 14px;
+  }
+
+  .help-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0.5em;
+
+    .info-hover {
+      height: 25px;
+      border-radius: 50%;
+      padding: 0.46em 0.75em;
+      margin: 0 0.8em 0 0;
+      background-color: rgb(225, 225, 225);
+      color: $money;
+      font-weight: bold;
+    }
+
+    .help-link {
+      color: rgb(21, 120, 118);
+      font-size: 19px;
+    }
+  }
+}
+
+.list-headlines-container {
+  padding-bottom: 2em;
+
+  .wrapper {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 0.3fr repeat(6, 1fr);
+    justify-items: start;
+  }
+
+  .wrapper p {
+    font-size: 17px;
+    color: $order-headers;
+  }
+}
+
+.list-items-container {
+  padding: 0.4em 0;
+
+  .items-wrapper {
+    display: flex;
+
+    height: 80px;
+    width: 90%;
+    margin: 0 auto;
+
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.21) 0px 3px 8px;
+    border-radius: 6px;
+
+    .items {
+      width: 100%;
+      height: 100%;
+      display: grid;
+      grid-template-columns: 0.3fr repeat(6, 1fr);
+      place-items: center;
+      justify-items: start;
+      color: $status-items;
+
+      .order-status-container {
+        transform: rotate(-90deg);
+        height: 85%;
+        width: 74px;
+
+        .order-status {
+          text-align: center;
+          padding: 0.6em;
+          border-radius: 6px;
+          font-size: 14px;
+          color: $money;
+
+          img {
+            color: $order;
+          }
+        }
+
+        .online {
+          background-color: $grey;
+        }
+
+        .in-store {
+          background-color: black;
+          color: white;
+        }
+
+        .manual {
+          background-color: $orange;
+          color: white;
+        }
+      }
+    }
+  }
+
+  .order-number-container {
+    display: flex;
+    align-items: center;
+
+    .order-number {
+      margin-right: 0.3em;
+      color: $order;
+    }
+  }
+
+  .store {
+    display: flex;
+    align-items: center;
+
+    img {
+      margin: 0 0.3em 0 0;
+    }
+  }
+
+  .payment-method {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    .img-container {
+      width: 20%;
+      margin-right: 0.7em;
+    }
+
+    img {
+      border: 1px solid rgb(199, 199, 199);
+      border-radius: 6px;
+
+      height: 30px;
+      width: 50px;
+      object-fit: contain;
+      padding: 0.5em;
+      margin: 0 0.6em 0 0;
+    }
+  }
+
+  .status {
+    display: flex;
+    align-items: center;
+
+    p {
+      padding: 0 0.6em;
+    }
+
+    .status-dot {
+      background-color: green;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+    }
+
+    .paid {
+      background-color: $lightgreen;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+    }
+
+    .in-progress {
+      background-color: $orange;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+    }
+
+    .failed {
+      background-color: $red;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+    }
+  }
+
+  .amount {
+    color: $money;
+  }
+
+  .items-wrapper p {
+    font-family: MetropolisMedium;
+    font-size: 15px;
+  }
+}
+
+.pagination-container {
+  background-color: $backGround;
+  height: 200px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 4em;
+
+  .wrapper {
+    width: 250px;
+    margin-right: 5em;
+  }
+
+  .pagination-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: MetropolisMedium;
+
+    :nth-child(2) {
+      background-color: $btn;
+      color: white;
+      padding: 1em 1.3em;
+      border-radius: 100%;
+    }
+
+    button {
+      font-family: MetropolisMedium;
+      border: none;
+      background-color: $backGround;
+      font-size: 17px;
+      cursor: pointer;
+    }
+
+    span {
+      cursor: pointer;
+    }
+
+    .back-btn {
+      color: $paginationBtn;
+    }
+
+    .next-btn {
+      color: $order;
+    }
+  }
+}
